@@ -1,7 +1,9 @@
 {
   "mcpServers": {
     "gallerai": {
-      "url": "https://gallerai.space/api/mcp"
+      "type": "http",
+      "url": "https://gallerai.space/api/mcp",
+      "oauth_resource": "https://gallerai.space/api/mcp"
     }
   }
 }
