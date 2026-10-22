@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "gallerai": {
+      "url": "https://gallerai.space/api/mcp"
+    }
+  }
+}

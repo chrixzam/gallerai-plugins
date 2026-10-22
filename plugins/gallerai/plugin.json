@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "gallerai",
+  "version": "1.0.0",
+  "description": "Run your art gallery from ChatGPT: inventory, collectors, deals, follow-ups and market intelligence.",
+  "author": {
+    "name": "Gallerai",
+    "url": "https://gallerai.space"
+  },
+  "homepage": "https://gallerai.space",
+  "keywords": ["art", "gallery", "crm", "inventory"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Gallerai",
+        "shortDescription": "Run your art gallery",
+        "longDescription": "Gallerai is back-office software for art galleries. Connect it to ChatGPT to ask about your inventory, artists, collectors, deals, campaigns and market intelligence in plain language, and to log collector calls, schedule follow-ups, open deals and update artwork status. You sign in with your Gallerai account and choose which gallery and how much ChatGPT may do (read only, drafts, or changes). Everything is limited to what your account can already do in Gallerai. Actions that email a buyer, create an invoice or change your public website use a two-step preview and confirmation. Requires a Gallerai account.",
+        "developerName": "Gallerai",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://gallerai.space",
+        "privacyPolicyURL": "https://gallerai.space/privacy",
+        "termsOfServiceURL": "https://gallerai.space/terms",
+        "defaultPrompt": [
+          "What works are available by my represented artists?",
+          "Who needs a follow-up this week?",
+          "Show the history with a collector and suggest next steps.",
+          "Log a call with a collector and schedule a follow-up in two weeks.",
+          "Which inquiries are going cold?",
+          "Summarize this week's market brief for my gallery."
+        ],
+        "brandColor": "#6B1414",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
