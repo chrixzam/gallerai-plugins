@@ -15,7 +15,7 @@
         "displayName": "Gallerai",
         "shortDescription": "Run your art gallery",
         "longDescription": "Gallerai is back-office software for art galleries. Connect it to ChatGPT to ask about your inventory, artists, collectors, deals, campaigns and market intelligence in plain language, and to log collector calls, schedule follow-ups, open deals and update artwork status. You sign in with your Gallerai account and choose which gallery and how much ChatGPT may do (read only, drafts, or changes). Everything is limited to what your account can already do in Gallerai. Actions that email a buyer, create an invoice or change your public website use a two-step preview and confirmation. Requires a Gallerai account.",
-        "developerName": "Gallerai",
+        "developerName": "Gallerai LLC",
         "category": "Productivity",
         "capabilities": ["Read", "Write"],
         "websiteURL": "https://gallerai.space",
